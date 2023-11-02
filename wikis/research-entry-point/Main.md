@@ -7,7 +7,7 @@ Visual Inspection: Research Entry Point
   class="toc-section-number">2</span> Directory</a>
 - <a href="#references" id="toc-references">References</a>
 
-This document was rendered 2023/11/02 at 17:02:13.
+This document was rendered 2023/11/02 at 17:05:44.
 
 # About
 
@@ -138,8 +138,9 @@ class="csl-right-inline">E. T. Nalisnick, A. Matsukawa, Y. W. Teh, D.
 Görür, and B. Lakshminarayanan, “Do deep generative models know what
 they don’t know?” in *7th international conference on learning
 representations, ICLR 2019, new orleans, LA, USA, may 6-9, 2019*,
-OpenReview.net, 2019. Available:
-<https://openreview.net/forum?id=H1xwNhCcYm></span> \[[1](#cite_3)\]
+OpenReview.net, 2019. doi:
+[10.48550/arXiv.1810.09136](https://doi.org/10.48550/arXiv.1810.09136).</span>
+\[[1](#cite_3)\]
 
 </div>
 
