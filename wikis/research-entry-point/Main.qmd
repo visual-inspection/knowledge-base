@@ -113,6 +113,10 @@ Here is a directory of approaches that we either attempted, plan to attempt, or 
 - **`Other`**
   - Potentially Interesting Concepts (Limited Applicability)
     - Cross-Modality
+    - Typicality / Out-Of-Distribution Detection (OOD)
+      - Papers:
+        - [@nalisnick2019detecting]: "[@nalisnick2019detecting]{.title}"
+        - [@caterini2021entropic]: "[@caterini2021entropic]{.title}"
 
 
 

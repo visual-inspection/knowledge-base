@@ -7,7 +7,7 @@ Visual Inspection: Research Entry Point
   class="toc-section-number">2</span> Directory</a>
 - <a href="#references" id="toc-references">References</a>
 
-This document was rendered 2023/11/02 at 17:05:44.
+This document was rendered 2023/11/02 at 17:14:18.
 
 # About
 
@@ -104,6 +104,12 @@ attempt, or are just listed as food-for-thought.
 - **`Other`**
   - Potentially Interesting Concepts (Limited Applicability)
     - Cross-Modality
+    - Typicality / Out-Of-Distribution Detection (OOD)
+      - Papers:
+        - <span id="cite_18">\[18\]</span>:
+          “*Detecting out-of-distribution inputs to deep generative models using a test for typicality*”
+        - <span id="cite_19">\[19\]</span>:
+          “*Entropic issues in likelihood-based OOD detection*”
 
 # References
 
@@ -308,6 +314,32 @@ likelihood-free inference,” PhD thesis, University of Edinburgh, UK,
 2019. Available:
 <https://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.798882></span>
 \[[1](#cite_17)\]
+
+</div>
+
+<div id="ref-nalisnick2019detecting" class="csl-entry">
+
+<span class="csl-left-margin">\[18\] </span><span
+class="csl-right-inline">E. T. Nalisnick, A. Matsukawa, Y. W. Teh, and
+B. Lakshminarayanan, “Detecting out-of-distribution inputs to deep
+generative models using a test for typicality,” *CoRR*, vol.
+abs/1906.02994, 2019, doi:
+[10.48550/arXiv.1906.02994](https://doi.org/10.48550/arXiv.1906.02994).</span>
+\[[1](#cite_18)\]
+
+</div>
+
+<div id="ref-caterini2021entropic" class="csl-entry">
+
+<span class="csl-left-margin">\[19\] </span><span
+class="csl-right-inline">A. L. Caterini and G. Loaiza-Ganem, “Entropic
+issues in likelihood-based OOD detection,” in *I (still) can’t believe
+it’s not better! Workshop at NeurIPS 2021, virtual workshop, december
+13, 2021*, M. F. Pradier, A. Schein, S. L. Hyland, F. J. R. Ruiz, and J.
+Z. Forde, Eds., in Proceedings of machine learning research, vol. 163.
+PMLR, 2021, pp. 21–26. Available:
+<https://proceedings.mlr.press/v163/caterini22a.html></span>
+\[[1](#cite_19)\]
 
 </div>
 
