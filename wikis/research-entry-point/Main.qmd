@@ -11,7 +11,7 @@ filters:
   - citetools
 format:
   gfm:
-    citeproc: true
+    citeproc: false
     toc: true
     toc-depth: 6
     number-sections: true
