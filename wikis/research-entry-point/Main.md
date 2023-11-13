@@ -4,7 +4,7 @@
 - [<span class="toc-section-number">2</span> Directory](#directory)
 - [References](#references)
 
-This document was rendered 2023/11/13 at 10:09:40.
+This document was rendered 2023/11/13 at 10:12:54.
 
 # About
 
@@ -85,41 +85,41 @@ attempt, or are just listed as food-for-thought.
     - Zero-Shot Learning
       - Papers:
         - <span id="cite_11">\[11\]</span>:
-          “<span id="cite_12">\[11\]</span>”
-        - <span id="cite_13">\[12\]</span>:
-          “<span id="cite_14">\[12\]</span>”
-        - <span id="cite_15">\[13\]</span>:
-          “<span id="cite_16">\[13\]</span>”
-        - <span id="cite_17">\[14\]</span>:
-          “<span id="cite_18">\[14\]</span>”
+          “*Importance of semantic representation: Dataless classification*”
+        - <span id="cite_12">\[12\]</span>:
+          “*Zero-data learning of new tasks*”
+        - <span id="cite_13">\[13\]</span>:
+          “*WinCLIP: Zero-/few-shot anomaly classification and segmentation*”
+        - <span id="cite_14">\[14\]</span>:
+          “*AnoVL: Adapting vision-language models for unified zero-shot anomaly localization*”
       - Repositories:
         - [*Official Implementation of AnoVL
           (Updating)*](https://github.com/hq-deng/AnoVL)
 - **`Unsupervised Learning`**
   - Normalizing Flows
     - Papers:
-      - <span id="cite_19">\[15\]</span>:
+      - <span id="cite_15">\[15\]</span>:
         “*Density estimation by dual ascent of the log-likelihood*”
-      - <span id="cite_20">\[16\]</span>:
+      - <span id="cite_16">\[16\]</span>:
         “*A family of nonparametric density estimation algorithms*”
-      - <span id="cite_21">\[17\]</span>:
+      - <span id="cite_17">\[17\]</span>:
         “*A case for unsupervised defect detection in manufacturing*”
-      - <span id="cite_22">\[18\]</span>:
+      - <span id="cite_18">\[18\]</span>:
         “*Fully convolutional cross-scale-flows for image-based defect detection*”
-      - <span id="cite_23">\[19\]</span>:
+      - <span id="cite_19">\[19\]</span>:
         “*Same same but DifferNet: Semi-supervised defect detection with normalizing flows*”
-      - <span id="cite_24">\[20\]</span>:
+      - <span id="cite_20">\[20\]</span>:
         “*Normalizing flows for probabilistic modeling and inference*”
-      - <span id="cite_25">\[21\]</span>:
+      - <span id="cite_21">\[21\]</span>:
         “*Neural density estimation and likelihood-free inference*”
 - **`Other`**
   - Potentially Interesting Concepts (Limited Applicability)
     - Cross-Modality
     - Typicality / Out-Of-Distribution Detection (OOD)
       - Papers:
-        - <span id="cite_26">\[22\]</span>:
+        - <span id="cite_22">\[22\]</span>:
           “*Detecting out-of-distribution inputs to deep generative models using a test for typicality*”
-        - <span id="cite_27">\[23\]</span>:
+        - <span id="cite_23">\[23\]</span>:
           “*Entropic issues in likelihood-based OOD detection*”
 
 # References
@@ -253,7 +253,7 @@ classification,” in *Proceedings of the twenty-third AAAI conference on
 artificial intelligence, AAAI 2008, chicago, illinois, USA, july 13-17,
 2008*, D. Fox and C. P. Gomes, Eds., AAAI Press, 2008, pp. 830–835.
 Available: <http://www.aaai.org/Library/AAAI/2008/aaai08-132.php></span>
-\[[1](#cite_11), [2](#cite_12)\]
+\[[1](#cite_11)\]
 
 </div>
 
@@ -266,7 +266,7 @@ twenty-third AAAI conference on artificial intelligence, AAAI 2008,
 chicago, illinois, USA, july 13-17, 2008*, D. Fox and C. P. Gomes, Eds.,
 AAAI Press, 2008, pp. 646–651. Available:
 <http://www.aaai.org/Library/AAAI/2008/aaai08-103.php></span>
-\[[1](#cite_13), [2](#cite_14)\]
+\[[1](#cite_12)\]
 
 </div>
 
@@ -279,7 +279,7 @@ classification and segmentation,” in *IEEE/CVF conference on computer
 vision and pattern recognition, CVPR 2023, vancouver, BC, canada, june
 17-24, 2023*, IEEE, 2023, pp. 19606–19616. doi:
 [10.1109/CVPR52729.2023.01878](https://doi.org/10.1109/CVPR52729.2023.01878).</span>
-\[[1](#cite_15), [2](#cite_16)\]
+\[[1](#cite_13)\]
 
 </div>
 
@@ -290,7 +290,7 @@ vision and pattern recognition, CVPR 2023, vancouver, BC, canada, june
 Li, “AnoVL: Adapting vision-language models for unified zero-shot
 anomaly localization,” *CoRR*, vol. abs/2308.15939, 2023, doi:
 [10.48550/ARXIV.2308.15939](https://doi.org/10.48550/ARXIV.2308.15939).</span>
-\[[1](#cite_17), [2](#cite_18)\]
+\[[1](#cite_14)\]
 
 </div>
 
@@ -302,7 +302,7 @@ anomaly localization,” *CoRR*, vol. abs/2308.15939, 2023, doi:
 log-likelihood</span>,” *Communications in Mathematical Sciences*, vol.
 8, no. 1, pp. 217–233, 2010, Available:
 <https://projecteuclid.org/journals/communications-in-mathematical-sciences/volume-8/issue-1/Density-estimation-by-dual-ascent-of-the-log-likelihood/cms/1266935020.full></span>
-\[[1](#cite_19)\]
+\[[1](#cite_15)\]
 
 </div>
 
@@ -313,7 +313,7 @@ log-likelihood</span>,” *Communications in Mathematical Sciences*, vol.
 family of nonparametric density estimation algorithms,” *Communications
 on Pure and Applied Mathematics*, vol. 66, no. 2, pp. 145–164, 2013,
 doi: [10.1002/cpa.21423](https://doi.org/10.1002/cpa.21423).</span>
-\[[1](#cite_20)\]
+\[[1](#cite_16)\]
 
 </div>
 
@@ -327,7 +327,7 @@ annual workshop of the swedish artificial intelligence society, SAIS
 2023, karlskrona, sweden, june 12–13, 2023*, H. Grahn, A. Borg, and M.
 Boldt, Eds., 2023. Available:
 <https://grahn.cse.bth.se/SAIS-2023/extended_abstracts/paper_33.pdf></span>
-\[[1](#cite_21)\]
+\[[1](#cite_17)\]
 
 </div>
 
@@ -340,7 +340,7 @@ image-based defect detection,” in *IEEE/CVF winter conference on
 applications of computer vision, WACV 2022, waikoloa, HI, USA, january
 3–8, 2022*, IEEE, 2022, pp. 1829–1838. doi:
 [10.1109/WACV51458.2022.00189](https://doi.org/10.1109/WACV51458.2022.00189).</span>
-\[[1](#cite_22)\]
+\[[1](#cite_18)\]
 
 </div>
 
@@ -353,7 +353,7 @@ with normalizing flows,” in *IEEE winter conference on applications of
 computer vision, WACV 2021, waikoloa, HI, USA, january 3–8, 2021*, IEEE,
 2021, pp. 1906–1915. doi:
 [10.1109/WACV48630.2021.00195](https://doi.org/10.1109/WACV48630.2021.00195).</span>
-\[[1](#cite_23)\]
+\[[1](#cite_19)\]
 
 </div>
 
@@ -364,7 +364,7 @@ computer vision, WACV 2021, waikoloa, HI, USA, january 3–8, 2021*, IEEE,
 D. J. Rezende, S. Mohamed, and B. Lakshminarayanan, “Normalizing flows
 for probabilistic modeling and inference,” *J. Mach. Learn. Res.*, vol.
 22, pp. 57:1–57:64, 2021, Available:
-<http://jmlr.org/papers/v22/19-1028.html></span> \[[1](#cite_24)\]
+<http://jmlr.org/papers/v22/19-1028.html></span> \[[1](#cite_20)\]
 
 </div>
 
@@ -375,7 +375,7 @@ for probabilistic modeling and inference,” *J. Mach. Learn. Res.*, vol.
 estimation and likelihood-free inference,” PhD thesis, University of
 Edinburgh, UK, 2019. Available:
 <https://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.798882></span>
-\[[1](#cite_25)\]
+\[[1](#cite_21)\]
 
 </div>
 
@@ -387,7 +387,7 @@ W. Teh, and B. Lakshminarayanan, “Detecting out-of-distribution inputs
 to deep generative models using a test for typicality,” *CoRR*, vol.
 abs/1906.02994, 2019, doi:
 [10.48550/arXiv.1906.02994](https://doi.org/10.48550/arXiv.1906.02994).</span>
-\[[1](#cite_26)\]
+\[[1](#cite_22)\]
 
 </div>
 
@@ -401,7 +401,7 @@ workshop, december 13, 2021*, M. F. Pradier, A. Schein, S. L. Hyland, F.
 J. R. Ruiz, and J. Z. Forde, Eds., in Proceedings of machine learning
 research, vol. 163. PMLR, 2021, pp. 21–26. Available:
 <https://proceedings.mlr.press/v163/caterini22a.html></span>
-\[[1](#cite_27)\]
+\[[1](#cite_23)\]
 
 </div>
 
