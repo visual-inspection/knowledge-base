@@ -4,7 +4,7 @@
 - [<span class="toc-section-number">2</span> Directory](#directory)
 - [References](#references)
 
-This document was rendered 2023/11/13 at 12:58:40.
+This document was rendered 2023/11/13 at 13:03:19.
 
 # About
 
@@ -68,11 +68,11 @@ attempt, or are just listed as food-for-thought.
 - **`Supervised Learning`**
   - Papers:
     - <span id="cite_5">\[5\]</span>: “A multi-branch u-net for steel
-      surface defect type and severity segmentation” (20215)
+      surface defect type and severity segmentation” (2021)
     - <span id="cite_6">\[6\]</span>: “U-net: Convolutional networks for
       biomedical image segmentation” (2015)
     - <span id="cite_7">\[7\]</span>: “Improved u-net with residual
-      attention block for mixed-defect wafer maps” (20222)
+      attention block for mixed-defect wafer maps” (2022)
     - <span id="cite_8">\[8\]</span>: “An automatic welding defect
       location algorithm based on deep learning” (2021)
 - **`Semi-supervised Learning`**
