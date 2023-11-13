@@ -4,7 +4,7 @@
 - [<span class="toc-section-number">2</span> Directory](#directory)
 - [References](#references)
 
-This document was rendered 2023/11/13 at 10:12:54.
+This document was rendered 2023/11/13 at 12:58:40.
 
 # About
 
@@ -43,22 +43,23 @@ attempt, or are just listed as food-for-thought.
     - Data Augmentation
       - Gaussian Splats
         - Papers:
-          - <span id="cite_1">\[1\]</span>:
-            “*3D gaussian splatting for real-time radiance field rendering*”
+          - <span id="cite_1">\[1\]</span>: “3D gaussian splatting for
+            real-time radiance field rendering” (2023)
         - Repos:
           - [*3D Gaussian Splatting for Real-Time Radiance Field
             Rendering*](https://github.com/graphdeco-inria/gaussian-splatting)
   - Related Problems
     - Predictive Maintenance / Anomaly Detection
       - Papers:
-        - <span id="cite_2">\[2\]</span>:
-          “*Uncertainty-estimation with normalized logits for out-of-distribution detection*”
-        - <span id="cite_3">\[3\]</span>:
-          “*Do deep generative models know what they don’t know?*”
+        - <span id="cite_2">\[2\]</span>: “Uncertainty-estimation with
+          normalized logits for out-of-distribution detection” (2023)
+        - <span id="cite_3">\[3\]</span>: “Do deep generative models
+          know what they don’t know?” (2019)
     - Transfer Learning
       - Papers:
-        - <span id="cite_4">\[4\]</span>:
-          “*A systematic literature review on transfer learning for predictive maintenance in industry 4.0*”
+        - <span id="cite_4">\[4\]</span>: “A systematic literature
+          review on transfer learning for predictive maintenance in
+          industry 4.0” (2023)
       - Links:
         - [*A Gentle Introduction to Transfer Learning for Deep
           Learning*](https://machinelearningmastery.com/transfer-learning-for-deep-learning/)
@@ -66,61 +67,63 @@ attempt, or are just listed as food-for-thought.
           Models*](https://machinelearningmastery.com/how-to-use-transfer-learning-when-developing-convolutional-neural-network-models/)
 - **`Supervised Learning`**
   - Papers:
-    - <span id="cite_5">\[5\]</span>:
-      “*A multi-branch u-net for steel surface defect type and severity segmentation*”
-    - <span id="cite_6">\[6\]</span>:
-      “*U-net: Convolutional networks for biomedical image segmentation*”
-    - <span id="cite_7">\[7\]</span>:
-      “*Improved u-net with residual attention block for mixed-defect wafer maps*”
-    - <span id="cite_8">\[8\]</span>:
-      “*An automatic welding defect location algorithm based on deep learning*”
+    - <span id="cite_5">\[5\]</span>: “A multi-branch u-net for steel
+      surface defect type and severity segmentation” (20215)
+    - <span id="cite_6">\[6\]</span>: “U-net: Convolutional networks for
+      biomedical image segmentation” (2015)
+    - <span id="cite_7">\[7\]</span>: “Improved u-net with residual
+      attention block for mixed-defect wafer maps” (20222)
+    - <span id="cite_8">\[8\]</span>: “An automatic welding defect
+      location algorithm based on deep learning” (2021)
 - **`Semi-supervised Learning`**
   - Domain Generalization
     - Papers:
-      - <span id="cite_9">\[9\]</span>:
-        “*Domain generalization: A survey*”
-      - <span id="cite_10">\[10\]</span>:
-        “*Generalizing to unseen domains: A survey on domain generalization*”
+      - <span id="cite_9">\[9\]</span>: “Domain generalization: A
+        survey” (2023)
+      - <span id="cite_10">\[10\]</span>: “Generalizing to unseen
+        domains: A survey on domain generalization” (2023)
   - Domain Adaptation
     - Zero-Shot Learning
       - Papers:
-        - <span id="cite_11">\[11\]</span>:
-          “*Importance of semantic representation: Dataless classification*”
-        - <span id="cite_12">\[12\]</span>:
-          “*Zero-data learning of new tasks*”
-        - <span id="cite_13">\[13\]</span>:
-          “*WinCLIP: Zero-/few-shot anomaly classification and segmentation*”
-        - <span id="cite_14">\[14\]</span>:
-          “*AnoVL: Adapting vision-language models for unified zero-shot anomaly localization*”
+        - <span id="cite_11">\[11\]</span>: “Importance of semantic
+          representation: Dataless classification” (2008)
+        - <span id="cite_12">\[12\]</span>: “Zero-data learning of new
+          tasks” (2008)
+        - <span id="cite_13">\[13\]</span>: WinCLIP: Zero-/few-shot
+          anomaly classification and segmentation
+        - <span id="cite_14">\[14\]</span>: AnoVL: Adapting
+          vision-language models for unified zero-shot anomaly
+          localization
       - Repositories:
         - [*Official Implementation of AnoVL
           (Updating)*](https://github.com/hq-deng/AnoVL)
 - **`Unsupervised Learning`**
   - Normalizing Flows
     - Papers:
-      - <span id="cite_15">\[15\]</span>:
-        “*Density estimation by dual ascent of the log-likelihood*”
-      - <span id="cite_16">\[16\]</span>:
-        “*A family of nonparametric density estimation algorithms*”
-      - <span id="cite_17">\[17\]</span>:
-        “*A case for unsupervised defect detection in manufacturing*”
-      - <span id="cite_18">\[18\]</span>:
-        “*Fully convolutional cross-scale-flows for image-based defect detection*”
-      - <span id="cite_19">\[19\]</span>:
-        “*Same same but DifferNet: Semi-supervised defect detection with normalizing flows*”
-      - <span id="cite_20">\[20\]</span>:
-        “*Normalizing flows for probabilistic modeling and inference*”
-      - <span id="cite_21">\[21\]</span>:
-        “*Neural density estimation and likelihood-free inference*”
+      - <span id="cite_15">\[15\]</span>: “Density estimation by dual
+        ascent of the log-likelihood” (2010)
+      - <span id="cite_16">\[16\]</span>: “A family of nonparametric
+        density estimation algorithms” (2013)
+      - <span id="cite_17">\[17\]</span>: “A case for unsupervised
+        defect detection in manufacturing” (2023)
+      - <span id="cite_18">\[18\]</span>: “Fully convolutional
+        cross-scale-flows for image-based defect detection” (2022)
+      - <span id="cite_19">\[19\]</span>: “Same same but DifferNet:
+        Semi-supervised defect detection with normalizing flows” (2021)
+      - <span id="cite_20">\[20\]</span>: “Normalizing flows for
+        probabilistic modeling and inference” (2021)
+      - <span id="cite_21">\[21\]</span>: “Neural density estimation and
+        likelihood-free inference” (2019)
 - **`Other`**
   - Potentially Interesting Concepts (Limited Applicability)
     - Cross-Modality
     - Typicality / Out-Of-Distribution Detection (OOD)
       - Papers:
-        - <span id="cite_22">\[22\]</span>:
-          “*Detecting out-of-distribution inputs to deep generative models using a test for typicality*”
-        - <span id="cite_23">\[23\]</span>:
-          “*Entropic issues in likelihood-based OOD detection*”
+        - <span id="cite_22">\[22\]</span>: “Detecting
+          out-of-distribution inputs to deep generative models using a
+          test for typicality” (2019)
+        - <span id="cite_23">\[23\]</span>: “Entropic issues in
+          likelihood-based OOD detection” (2021)
 
 # References
 

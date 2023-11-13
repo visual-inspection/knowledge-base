@@ -75,58 +75,58 @@ Here is a directory of approaches that we either attempted, plan to attempt, or 
     - Data Augmentation
       - Gaussian Splats
         - Papers:
-          - [@kerbl2023gauss]: "[@kerbl2023gauss]{.title}"
+          - [@kerbl2023gauss]: [@kerbl2023gauss]{.title-year}
         - Repos:
           - [*3D Gaussian Splatting for Real-Time Radiance Field Rendering*](https://github.com/graphdeco-inria/gaussian-splatting)
   - Related Problems
     - Predictive Maintenance / Anomaly Detection
       - Papers:
-        - [@huang2023uncertainty]: "[@huang2023uncertainty]{.title}"
-        - [@nalisnick2019know]: "[@nalisnick2019know]{.title}"
+        - [@huang2023uncertainty]: [@huang2023uncertainty]{.title-year}
+        - [@nalisnick2019know]: [@nalisnick2019know]{.title-year}
     - Transfer Learning
       - Papers:
-        - [@azari2023pred]: "[@azari2023pred]{.title}"
+        - [@azari2023pred]: [@azari2023pred]{.title-year}
       - Links:
         - [*A Gentle Introduction to Transfer Learning for Deep Learning*](https://machinelearningmastery.com/transfer-learning-for-deep-learning/)
         - [*Transfer Learning in Keras with Computer Vision Models*](https://machinelearningmastery.com/how-to-use-transfer-learning-when-developing-convolutional-neural-network-models/)
 - **`Supervised Learning`**
   - Papers:
-    - [@neven2021unet]: "[@neven2021unet]{.title}"
-    - [@ronneberger2015unet]: "[@ronneberger2015unet]{.title}"
-    - [@cha2022unet]: "[@cha2022unet]{.title}"
-    - [@yang2021automatic]: "[@yang2021automatic]{.title}"
+    - [@neven2021unet]: [@neven2021unet]{.title-year}
+    - [@ronneberger2015unet]: [@ronneberger2015unet]{.title-year}
+    - [@cha2022unet]: [@cha2022unet]{.title-year}
+    - [@yang2021automatic]: [@yang2021automatic]{.title-year}
 - **`Semi-supervised Learning`**
   - Domain Generalization
     - Papers:
-      - [@zhou2023dg]: "[@zhou2023dg]{.title}"
-      - [@wang2023generalizing]: "[@wang2023generalizing]{.title}"
+      - [@zhou2023dg]: [@zhou2023dg]{.title-year}
+      - [@wang2023generalizing]: [@wang2023generalizing]{.title-year}
   - Domain Adaptation
     - Zero-Shot Learning
       - Papers:
-        - [@chang2008dataless]: "[@chang2008dataless]{.title}"
-        - [@larochelle2008zerodata]: "[@larochelle2008zerodata]{.title}"
-        - [@jeong2023winclip]: "[@jeong2023winclip]{.title}"
-        - [@deng2023anovl]: "[@deng2023anovl]{.title}"
+        - [@chang2008dataless]: [@chang2008dataless]{.title-year}
+        - [@larochelle2008zerodata]: [@larochelle2008zerodata]{.title-year}
+        - [@jeong2023winclip]: [@jeong2023winclip]{.title}
+        - [@deng2023anovl]: [@deng2023anovl]{.title}
       - Repositories:
         - [*Official Implementation of AnoVL (Updating)*](https://github.com/hq-deng/AnoVL)
 
 - **`Unsupervised Learning`**
   - Normalizing Flows
     - Papers:
-      - [@esteban2010density]: "[@esteban2010density]{.title}"
-      - [@tabak2013family]: "[@tabak2013family]{.title}"
-      - [@viberg2023]: "[@viberg2023]{.title}"
-      - [@rudolph2022csf]: "[@rudolph2022csf]{.title}"
-      - [@rudolph2021samesame]: "[@rudolph2021samesame]{.title}"
-      - [@papamakarios2021normalizing]: "[@papamakarios2021normalizing]{.title}"
-      - [@papamakarios2019phd]: "[@papamakarios2019phd]{.title}"
+      - [@esteban2010density]: [@esteban2010density]{.title-year}
+      - [@tabak2013family]: [@tabak2013family]{.title-year}
+      - [@viberg2023]: [@viberg2023]{.title-year}
+      - [@rudolph2022csf]: [@rudolph2022csf]{.title-year}
+      - [@rudolph2021samesame]: [@rudolph2021samesame]{.title-year}
+      - [@papamakarios2021normalizing]: [@papamakarios2021normalizing]{.title-year}
+      - [@papamakarios2019phd]: [@papamakarios2019phd]{.title-year}
 - **`Other`**
   - Potentially Interesting Concepts (Limited Applicability)
     - Cross-Modality
     - Typicality / Out-Of-Distribution Detection (OOD)
       - Papers:
-        - [@nalisnick2019detecting]: "[@nalisnick2019detecting]{.title}"
-        - [@caterini2021entropic]: "[@caterini2021entropic]{.title}"
+        - [@nalisnick2019detecting]: [@nalisnick2019detecting]{.title-year}
+        - [@caterini2021entropic]: [@caterini2021entropic]{.title-year}
 
 
 
