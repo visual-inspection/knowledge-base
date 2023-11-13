@@ -91,7 +91,7 @@ function Pandoc (doc)
     ) -- end of get reference
 
       if the_arg == "title-year" then
-        the_result = "“" .. stringify(ref["title"]) .. "” (" .. stringify(ref["issued"]) .. ")"
+        the_result = "“" .. stringify(ref["title"]) .. "” (" .. string.sub(stringify(ref["issued"]), 1, 4) .. ")"
       elseif ref and ref[the_arg] then -- if field is not empty
         local content = ref[the_arg] -- get field
         local title_field_emph = get_options(doc.meta).title_field_emph
