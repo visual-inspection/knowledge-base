@@ -8,3 +8,6 @@ Note that the links are **password-protected**. You will require authorization f
 # List of Datasets
 
 * **`G-Link Anomaly`**: <https://lnu.box.com/s/h66pgpfpcs1ebd3484dvxkjqww8v3wiq>
+* **`MVTec Anomaly Detection Dataset`**: <https://lnu.box.com/s/nn96t0iha6hctaf81ir9j4wbdg6byz5k>[^1]
+
+[^1]: You will have to accept MVTec's terms of use first, before you can download their dataset. Go to <https://www.mvtec.com/company/research/datasets/mvtec-ad> and do so first.
