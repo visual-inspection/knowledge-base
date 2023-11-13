@@ -4,7 +4,7 @@
 - [<span class="toc-section-number">2</span> Directory](#directory)
 - [References](#references)
 
-This document was rendered 2023/11/13 at 13:03:19.
+This document was rendered 2023/11/13 at 13:05:10.
 
 # About
 
@@ -89,11 +89,11 @@ attempt, or are just listed as food-for-thought.
           representation: Dataless classification” (2008)
         - <span id="cite_12">\[12\]</span>: “Zero-data learning of new
           tasks” (2008)
-        - <span id="cite_13">\[13\]</span>: WinCLIP: Zero-/few-shot
-          anomaly classification and segmentation
-        - <span id="cite_14">\[14\]</span>: AnoVL: Adapting
+        - <span id="cite_13">\[13\]</span>: “WinCLIP: Zero-/few-shot
+          anomaly classification and segmentation” (2023)
+        - <span id="cite_14">\[14\]</span>: “AnoVL: Adapting
           vision-language models for unified zero-shot anomaly
-          localization
+          localization” (2023)
       - Repositories:
         - [*Official Implementation of AnoVL
           (Updating)*](https://github.com/hq-deng/AnoVL)
