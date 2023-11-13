@@ -4,7 +4,7 @@
 - [<span class="toc-section-number">2</span> Directory](#directory)
 - [References](#references)
 
-This document was rendered 2023/11/13 at 13:05:10.
+This document was rendered 2023/11/13 at 15:47:14.
 
 # About
 
@@ -114,6 +114,11 @@ attempt, or are just listed as food-for-thought.
         probabilistic modeling and inference” (2021)
       - <span id="cite_21">\[21\]</span>: “Neural density estimation and
         likelihood-free inference” (2019)
+    - Repositories:
+      - [*DifferNet: Semi-Supervised Defect Detection with Normalizing
+        Flows*](https://github.com/marco-rudolph/differnet)
+      - [*CS-Flow: Fully Convolutional Cross-Scale-Flows for Image-based
+        Defect Detection*](https://github.com/marco-rudolph/cs-flow)
 - **`Other`**
   - Potentially Interesting Concepts (Limited Applicability)
     - Cross-Modality

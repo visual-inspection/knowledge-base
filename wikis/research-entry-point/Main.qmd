@@ -120,6 +120,9 @@ Here is a directory of approaches that we either attempted, plan to attempt, or 
       - [@rudolph2021samesame]: [@rudolph2021samesame]{.title-year}
       - [@papamakarios2021normalizing]: [@papamakarios2021normalizing]{.title-year}
       - [@papamakarios2019phd]: [@papamakarios2019phd]{.title-year}
+    - Repositories:
+      - [*DifferNet: Semi-Supervised Defect Detection with Normalizing Flows*](https://github.com/marco-rudolph/differnet)
+      - [*CS-Flow: Fully Convolutional Cross-Scale-Flows for Image-based Defect Detection*](https://github.com/marco-rudolph/cs-flow)
 - **`Other`**
   - Potentially Interesting Concepts (Limited Applicability)
     - Cross-Modality
