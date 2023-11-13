@@ -15,7 +15,7 @@ PANDOC_VERSION:must_be_at_least '2.17'
 
 local stringify = require 'pandoc.utils'.stringify
 
-csl_fields = {"abstract", "accessed", "annote", "archive", "archive_collection", "archive_location", "archive-place", "author", "authority", "available-date", "call-number", "chair", "chapter-number", "citation-key", "citation-label", "citation-number", "collection-editor", "collection-number", "collection-title", "compiler", "composer", "container-author", "container-title", "container-title-short", "contributor", "curator", "dimensions", "director", "division", "DOI", "edition", "editor", "editor-translator", "editorial-director", "event", "event-date", "event-place", "event-title", "executive-producer", "first-reference-note-number", "genre", "guest", "host", "illustrator", "interviewer", "ISBN", "ISSN", "issue", "issued", "jurisdiction", "keyword", "language", "license", "locator", "medium", "narrator", "note", "number", "number-of-pages", "number-of-volumes", "organizer", "original-author", "original-date", "original-publisher", "original-publisher-place", "original-title", "page", "page-first", "part-number", "part-title", "performer", "PMCID", "PMID", "printing-number", "producer", "publisher", "publisher-place", "recipient", "references", "reviewed-author", "reviewed-genre", "reviewed-title", "scale", "script-writer", "section", "series-creator", "source", "status", "submitted", "supplement-number", "title", "title-short", "translator", "URL", "version", "volume", "volume-title", "year-suffix"}
+csl_fields = {"abstract", "accessed", "annote", "archive", "archive_collection", "archive_location", "archive-place", "author", "authority", "available-date", "call-number", "chair", "chapter-number", "citation-key", "citation-label", "citation-number", "collection-editor", "collection-number", "collection-title", "compiler", "composer", "container-author", "container-title", "container-title-short", "contributor", "curator", "dimensions", "director", "division", "DOI", "edition", "editor", "editor-translator", "editorial-director", "event", "event-date", "event-place", "event-title", "executive-producer", "first-reference-note-number", "genre", "guest", "host", "illustrator", "interviewer", "ISBN", "ISSN", "issue", "issued", "jurisdiction", "keyword", "language", "license", "locator", "medium", "narrator", "note", "number", "number-of-pages", "number-of-volumes", "organizer", "original-author", "original-date", "original-publisher", "original-publisher-place", "original-title", "page", "page-first", "part-number", "part-title", "performer", "PMCID", "PMID", "printing-number", "producer", "publisher", "publisher-place", "recipient", "references", "reviewed-author", "reviewed-genre", "reviewed-title", "scale", "script-writer", "section", "series-creator", "source", "status", "submitted", "supplement-number", "title", "title-short", "title-year", "translator", "URL", "version", "volume", "volume-title", "year-suffix"}
 
 function get_options(meta)
   if meta['link-citations'] or meta['link-fields'] or meta['title-field-emphasis'] then
@@ -90,7 +90,9 @@ function Pandoc (doc)
       function (r) return cite_id == r.id end
     ) -- end of get reference
 
-      if ref and ref[the_arg] then -- if field is not empty
+      if the_arg == "title-year" then
+        the_result = "“" .. stringify(ref["title"]) .. "” (" .. stringify(ref["issued"]) .. ")"
+      elseif ref and ref[the_arg] then -- if field is not empty
         local content = ref[the_arg] -- get field
         local title_field_emph = get_options(doc.meta).title_field_emph
         if the_arg == "author" or the_arg == "editor" or the_arg == "translator" then -- if field contains name
@@ -108,8 +110,8 @@ function Pandoc (doc)
             return "#ERROR: [".. cite_id .. "][" .. the_arg .. "][" .. ordinal .. "] is empty#"
           end -- end of field contains name
         else if the_arg == "title" and title_field_emph ~= false then -- if field is a title
-            the_result = pandoc.Emph{stringify(ref[the_arg])}
-          else if the_arg == "title-short" and title_field_emph ~= false then -- if field is a short title
+              the_result = stringify(ref[the_arg])
+            else if the_arg == "title-short" and title_field_emph ~= false then -- if field is a short title
               the_result = pandoc.Emph{stringify(ref[the_arg])}
             else -- if field is not a name or a title
               the_result = stringify(ref[the_arg])
