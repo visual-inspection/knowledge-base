@@ -47,12 +47,12 @@ The purpose of this document is supposed to be a kind of one-page Wiki.
 It shall serve as the **entry-point** for people joining the project, as well as a **reference** for what is going on in the project (e.g., what approaches we are working on).
 
 
-**\*Do not\* directly edit the file `Main.md` as your changes would be <u>lost</u>!**
+**\*Do not\* directly edit the file `readme.md` as your changes would be <u>lost</u>!**
 
-Instead, use [**`Quarto`**](https://quarto.org/) to render this file ([`Main.`**`qmd`**](./Main.qmd)) to markdown like this:
+Instead, use [**`Quarto`**](https://quarto.org/) to render this file ([`readme.`**`qmd`**](./readme.qmd)) to markdown like this:
 
 ```script
-quarto render Main.qmd --to gfm
+quarto render readme.qmd --to gfm
 ```
 
 This will properly render and format the references (which can be found in [`../references.bib`](../references.bib)).

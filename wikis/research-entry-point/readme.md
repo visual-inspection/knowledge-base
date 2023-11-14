@@ -4,7 +4,7 @@
 - [<span class="toc-section-number">2</span> Directory](#directory)
 - [References](#references)
 
-This document was rendered 2023/11/13 at 15:47:14.
+This document was rendered 2023/11/14 at 13:04:32.
 
 # About
 
@@ -13,14 +13,14 @@ It shall serve as the **entry-point** for people joining the project, as
 well as a **reference** for what is going on in the project (e.g., what
 approaches we are working on).
 
-**\*Do not\* directly edit the file `Main.md` as your changes would be
+**\*Do not\* directly edit the file `readme.md` as your changes would be
 <u>lost</u>!**
 
 Instead, use [**`Quarto`**](https://quarto.org/) to render this file
-([`Main.`**`qmd`**](./Main.qmd)) to markdown like this:
+([`readme.`**`qmd`**](./readme.qmd)) to markdown like this:
 
 ``` script
-quarto render Main.qmd --to gfm
+quarto render readme.qmd --to gfm
 ```
 
 This will properly render and format the references (which can be found
