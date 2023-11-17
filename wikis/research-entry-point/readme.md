@@ -4,7 +4,7 @@
 - [<span class="toc-section-number">2</span> Directory](#directory)
 - [References](#references)
 
-This document was rendered 2023/11/14 at 13:04:32.
+This document was rendered 2023/11/17 at 12:53:52.
 
 # About
 
@@ -129,6 +129,21 @@ attempt, or are just listed as food-for-thought.
           test for typicality” (2019)
         - <span id="cite_23">\[23\]</span>: “Entropic issues in
           likelihood-based OOD detection” (2021)
+  - Foundational Concepts
+    - RNN Encoder–Decoder / Statistical Machine Translation
+      - Papers:
+        - <span id="cite_24">\[24\]</span>: “Learning phrase
+          representations using RNN encoder-decoder for statistical
+          machine translation” (2014)
+        - <span id="cite_25">\[25\]</span>: “Sequence to sequence
+          learning with neural networks” (2014)
+    - Image Segmentation
+      - Papers:
+        - <span id="cite_26">\[26\]</span>: “Segment anything” (2023)
+      - Repositories:
+        - [*Grounded-Segment-Anything*](https://github.com/IDEA-Research/Grounded-Segment-Anything);
+          also look for “SAM” by Meta and at Huggingface. There are also
+          freely available datasets.
 
 # References
 
@@ -410,6 +425,47 @@ J. R. Ruiz, and J. Z. Forde, Eds., in Proceedings of machine learning
 research, vol. 163. PMLR, 2021, pp. 21–26. Available:
 <https://proceedings.mlr.press/v163/caterini22a.html></span>
 \[[1](#cite_23)\]
+
+</div>
+
+<div id="ref-cho2014rnnencdec" class="csl-entry">
+
+<span class="csl-left-margin">\[24\]
+</span><span class="csl-right-inline">K. Cho, B. van Merrienboer, Çaglar
+Gülçehre, D. Bahdanau, F. Bougares, H. Schwenk, and Y. Bengio, “Learning
+phrase representations using RNN encoder-decoder for statistical machine
+translation,” in *Proceedings of the 2014 conference on empirical
+methods in natural language processing, EMNLP 2014, october 25-29, 2014,
+doha, qatar, A meeting of SIGDAT, a special interest group of the ACL*,
+A. Moschitti, B. Pang, and W. Daelemans, Eds., ACL, 2014, pp. 1724–1734.
+doi: [10.3115/V1/D14-1179](https://doi.org/10.3115/V1/D14-1179).</span>
+\[[1](#cite_24)\]
+
+</div>
+
+<div id="ref-sutskever2014seq2seq" class="csl-entry">
+
+<span class="csl-left-margin">\[25\]
+</span><span class="csl-right-inline">I. Sutskever, O. Vinyals, and Q.
+V. Le, “Sequence to sequence learning with neural networks,” in
+*Advances in neural information processing systems 27: Annual conference
+on neural information processing systems 2014, december 8-13 2014,
+montreal, quebec, canada*, Z. Ghahramani, M. Welling, C. Cortes, N. D.
+Lawrence, and K. Q. Weinberger, Eds., 2014, pp. 3104–3112. Available:
+<https://proceedings.neurips.cc/paper/2014/hash/a14ac55a4f27472c5d894ec1c3c743d2-Abstract.html></span>
+\[[1](#cite_25)\]
+
+</div>
+
+<div id="ref-kirillov2023sam" class="csl-entry">
+
+<span class="csl-left-margin">\[26\]
+</span><span class="csl-right-inline">A. Kirillov, E. Mintun, N. Ravi,
+H. Mao, C. Rolland, L. Gustafson, T. Xiao, S. Whitehead, A. C. Berg,
+W.-Y. Lo, P. Dollár, and R. B. Girshick, “Segment anything,” *CoRR*,
+vol. abs/2304.02643, 2023, doi:
+[10.48550/ARXIV.2304.02643](https://doi.org/10.48550/ARXIV.2304.02643).</span>
+\[[1](#cite_26)\]
 
 </div>
 
