@@ -134,6 +134,8 @@ Here is a directory of approaches that we either attempted, plan to attempt, or 
       - Papers:
         - [@nalisnick2019detecting]: [@nalisnick2019detecting]{.title-year}
         - [@caterini2021entropic]: [@caterini2021entropic]{.title-year}
+        - [@zhang2023kld_ood]: [@zhang2023kld_ood]{.title-year}
+        - [@osada2023ood_typicality]: [@osada2023ood_typicality]{.title-year}
   - Foundational Concepts
     - RNN Encoder--Decoder / Statistical Machine Translation
       - Papers:
