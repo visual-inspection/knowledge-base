@@ -119,6 +119,7 @@ Here is a directory of approaches that we either attempted, plan to attempt, or 
     - Papers:
       - [@esteban2010density]: [@esteban2010density]{.title-year}
       - [@tabak2013family]: [@tabak2013family]{.title-year}
+      - [@dinh2017density]: [@dinh2017density]{.title-year}
       - [@kingma2018glow]: [@kingma2018glow]{.title-year}
       - [@viberg2023]: [@viberg2023]{.title-year}
       - [@rudolph2022csf]: [@rudolph2022csf]{.title-year}

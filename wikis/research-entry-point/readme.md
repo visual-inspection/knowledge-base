@@ -4,7 +4,7 @@
 - [<span class="toc-section-number">2</span> Directory](#directory)
 - [References](#references)
 
-This document was rendered 2023/11/30 at 11:26:21.
+This document was rendered 2023/11/30 at 13:21:50.
 
 # About
 
@@ -110,17 +110,19 @@ attempt, or are just listed as food-for-thought.
         ascent of the log-likelihood” (2010)
       - <span id="cite_17">\[17\]</span>: “A family of nonparametric
         density estimation algorithms” (2013)
-      - <span id="cite_18">\[18\]</span>: “Glow: Generative flow with
+      - <span id="cite_18">\[18\]</span>: “Density estimation using real
+        NVP” (2017)
+      - <span id="cite_19">\[19\]</span>: “Glow: Generative flow with
         invertible 1x1 convolutions” (2018)
-      - <span id="cite_19">\[19\]</span>: “A case for unsupervised
+      - <span id="cite_20">\[20\]</span>: “A case for unsupervised
         defect detection in manufacturing” (2023)
-      - <span id="cite_20">\[20\]</span>: “Fully convolutional
+      - <span id="cite_21">\[21\]</span>: “Fully convolutional
         cross-scale-flows for image-based defect detection” (2022)
-      - <span id="cite_21">\[21\]</span>: “Same same but DifferNet:
+      - <span id="cite_22">\[22\]</span>: “Same same but DifferNet:
         Semi-supervised defect detection with normalizing flows” (2021)
-      - <span id="cite_22">\[22\]</span>: “Normalizing flows for
+      - <span id="cite_23">\[23\]</span>: “Normalizing flows for
         probabilistic modeling and inference” (2021)
-      - <span id="cite_23">\[23\]</span>: “Neural density estimation and
+      - <span id="cite_24">\[24\]</span>: “Neural density estimation and
         likelihood-free inference” (2019)
     - Repositories:
       - [*DifferNet: Semi-Supervised Defect Detection with Normalizing
@@ -132,24 +134,24 @@ attempt, or are just listed as food-for-thought.
     - Cross-Modality
     - Typicality / Out-Of-Distribution Detection (OOD)
       - Papers:
-        - <span id="cite_24">\[24\]</span>: “Detecting
+        - <span id="cite_25">\[25\]</span>: “Detecting
           out-of-distribution inputs to deep generative models using a
           test for typicality” (2019)
-        - <span id="cite_25">\[25\]</span>: “Entropic issues in
+        - <span id="cite_26">\[26\]</span>: “Entropic issues in
           likelihood-based OOD detection” (2021)
-        - <span id="cite_26">\[26\]</span>: “Kullback-leibler
+        - <span id="cite_27">\[27\]</span>: “Kullback-leibler
           divergence-based out-of-distribution detection with flow-based
           generative models” (2023)
-        - <span id="cite_27">\[27\]</span>: “Out-of-distribution
+        - <span id="cite_28">\[28\]</span>: “Out-of-distribution
           detection with reconstruction error and typicality-based
           penalty” (2023)
   - Foundational Concepts
     - RNN Encoder–Decoder / Statistical Machine Translation
       - Papers:
-        - <span id="cite_28">\[28\]</span>: “Learning phrase
+        - <span id="cite_29">\[29\]</span>: “Learning phrase
           representations using RNN encoder-decoder for statistical
           machine translation” (2014)
-        - <span id="cite_29">\[29\]</span>: “Sequence to sequence
+        - <span id="cite_30">\[30\]</span>: “Sequence to sequence
           learning with neural networks” (2014)
 
 # References
@@ -359,9 +361,21 @@ doi: [10.1002/cpa.21423](https://doi.org/10.1002/cpa.21423).</span>
 
 </div>
 
-<div id="ref-kingma2018glow" class="csl-entry">
+<div id="ref-dinh2017density" class="csl-entry">
 
 <span class="csl-left-margin">\[18\]
+</span><span class="csl-right-inline">L. Dinh, J. Sohl-Dickstein, and S.
+Bengio, “Density estimation using real NVP,” in *5th international
+conference on learning representations, ICLR 2017, toulon, france, april
+24-26, 2017, conference track proceedings*, OpenReview.net, 2017.
+Available: <https://openreview.net/forum?id=HkpbnH9lx></span>
+\[[1](#cite_18)\]
+
+</div>
+
+<div id="ref-kingma2018glow" class="csl-entry">
+
+<span class="csl-left-margin">\[19\]
 </span><span class="csl-right-inline">D. P. Kingma and P. Dhariwal,
 “Glow: Generative flow with invertible 1x1 convolutions,” in *Advances
 in neural information processing systems 31: Annual conference on neural
@@ -369,13 +383,13 @@ information processing systems 2018, NeurIPS 2018, december 3-8, 2018,
 montréal, canada*, S. Bengio, H. M. Wallach, H. Larochelle, K. Grauman,
 N. Cesa-Bianchi, and R. Garnett, Eds., 2018, pp. 10236–10245. Available:
 <https://proceedings.neurips.cc/paper/2018/hash/d139db6a236200b21cc7f752979132d0-Abstract.html></span>
-\[[1](#cite_18)\]
+\[[1](#cite_19)\]
 
 </div>
 
 <div id="ref-viberg2023" class="csl-entry">
 
-<span class="csl-left-margin">\[19\]
+<span class="csl-left-margin">\[20\]
 </span><span class="csl-right-inline">F. Viberg, J. Nordqvist, M.
 Ericsson, A. Kaiser, M. Kroon, W. Löwe, M. Nilsson, and F. Sandberg, “A
 case for unsupervised defect detection in manufacturing,” in *35th
@@ -383,73 +397,73 @@ annual workshop of the swedish artificial intelligence society, SAIS
 2023, karlskrona, sweden, june 12–13, 2023*, H. Grahn, A. Borg, and M.
 Boldt, Eds., 2023. Available:
 <https://grahn.cse.bth.se/SAIS-2023/extended_abstracts/paper_33.pdf></span>
-\[[1](#cite_19)\]
+\[[1](#cite_20)\]
 
 </div>
 
 <div id="ref-rudolph2022csf" class="csl-entry">
 
-<span class="csl-left-margin">\[20\]
+<span class="csl-left-margin">\[21\]
 </span><span class="csl-right-inline">M. Rudolph, T. Wehrbein, B.
 Rosenhahn, and B. Wandt, “Fully convolutional cross-scale-flows for
 image-based defect detection,” in *IEEE/CVF winter conference on
 applications of computer vision, WACV 2022, waikoloa, HI, USA, january
 3–8, 2022*, IEEE, 2022, pp. 1829–1838. doi:
 [10.1109/WACV51458.2022.00189](https://doi.org/10.1109/WACV51458.2022.00189).</span>
-\[[1](#cite_20)\]
+\[[1](#cite_21)\]
 
 </div>
 
 <div id="ref-rudolph2021samesame" class="csl-entry">
 
-<span class="csl-left-margin">\[21\]
+<span class="csl-left-margin">\[22\]
 </span><span class="csl-right-inline">M. Rudolph, B. Wandt, and B.
 Rosenhahn, “Same same but DifferNet: Semi-supervised defect detection
 with normalizing flows,” in *IEEE winter conference on applications of
 computer vision, WACV 2021, waikoloa, HI, USA, january 3–8, 2021*, IEEE,
 2021, pp. 1906–1915. doi:
 [10.1109/WACV48630.2021.00195](https://doi.org/10.1109/WACV48630.2021.00195).</span>
-\[[1](#cite_21)\]
+\[[1](#cite_22)\]
 
 </div>
 
 <div id="ref-papamakarios2021normalizing" class="csl-entry">
 
-<span class="csl-left-margin">\[22\]
+<span class="csl-left-margin">\[23\]
 </span><span class="csl-right-inline">G. Papamakarios, E. T. Nalisnick,
 D. J. Rezende, S. Mohamed, and B. Lakshminarayanan, “Normalizing flows
 for probabilistic modeling and inference,” *J. Mach. Learn. Res.*, vol.
 22, pp. 57:1–57:64, 2021, Available:
-<http://jmlr.org/papers/v22/19-1028.html></span> \[[1](#cite_22)\]
+<http://jmlr.org/papers/v22/19-1028.html></span> \[[1](#cite_23)\]
 
 </div>
 
 <div id="ref-papamakarios2019phd" class="csl-entry">
 
-<span class="csl-left-margin">\[23\]
+<span class="csl-left-margin">\[24\]
 </span><span class="csl-right-inline">G. Papamakarios, “Neural density
 estimation and likelihood-free inference,” PhD thesis, University of
 Edinburgh, UK, 2019. Available:
 <https://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.798882></span>
-\[[1](#cite_23)\]
+\[[1](#cite_24)\]
 
 </div>
 
 <div id="ref-nalisnick2019detecting" class="csl-entry">
 
-<span class="csl-left-margin">\[24\]
+<span class="csl-left-margin">\[25\]
 </span><span class="csl-right-inline">E. T. Nalisnick, A. Matsukawa, Y.
 W. Teh, and B. Lakshminarayanan, “Detecting out-of-distribution inputs
 to deep generative models using a test for typicality,” *CoRR*, vol.
 abs/1906.02994, 2019, doi:
 [10.48550/arXiv.1906.02994](https://doi.org/10.48550/arXiv.1906.02994).</span>
-\[[1](#cite_24)\]
+\[[1](#cite_25)\]
 
 </div>
 
 <div id="ref-caterini2021entropic" class="csl-entry">
 
-<span class="csl-left-margin">\[25\]
+<span class="csl-left-margin">\[26\]
 </span><span class="csl-right-inline">A. L. Caterini and G.
 Loaiza-Ganem, “Entropic issues in likelihood-based OOD detection,” in *I
 (still) can’t believe it’s not better! Workshop at NeurIPS 2021, virtual
@@ -457,38 +471,38 @@ workshop, december 13, 2021*, M. F. Pradier, A. Schein, S. L. Hyland, F.
 J. R. Ruiz, and J. Z. Forde, Eds., in Proceedings of machine learning
 research, vol. 163. PMLR, 2021, pp. 21–26. Available:
 <https://proceedings.mlr.press/v163/caterini22a.html></span>
-\[[1](#cite_25)\]
+\[[1](#cite_26)\]
 
 </div>
 
 <div id="ref-zhang2023kld_ood" class="csl-entry">
 
-<span class="csl-left-margin">\[26\]
+<span class="csl-left-margin">\[27\]
 </span><span class="csl-right-inline">Y. Zhang, J. Pan, W. Liu, Z. Chen,
 K. Li, J. Wang, Z. Liu, and H. Wei, “Kullback-leibler divergence-based
 out-of-distribution detection with flow-based generative models,” *IEEE
 Transactions on Knowledge and Data Engineering*, pp. 1–14, 2023, doi:
 [10.1109/tkde.2023.3309853](https://doi.org/10.1109/tkde.2023.3309853).</span>
-\[[1](#cite_26)\]
+\[[1](#cite_27)\]
 
 </div>
 
 <div id="ref-osada2023ood_typicality" class="csl-entry">
 
-<span class="csl-left-margin">\[27\]
+<span class="csl-left-margin">\[28\]
 </span><span class="csl-right-inline">G. Osada, T. Tsubasa, B. Ahsan,
 and T. Nishide, “Out-of-distribution detection with reconstruction error
 and typicality-based penalty,” in *IEEE/CVF winter conference on
 applications of computer vision, WACV 2023, waikoloa, HI, USA, january
 2-7, 2023*, IEEE, 2023, pp. 5540–5552. doi:
 [10.1109/WACV56688.2023.00551](https://doi.org/10.1109/WACV56688.2023.00551).</span>
-\[[1](#cite_27)\]
+\[[1](#cite_28)\]
 
 </div>
 
 <div id="ref-cho2014rnnencdec" class="csl-entry">
 
-<span class="csl-left-margin">\[28\]
+<span class="csl-left-margin">\[29\]
 </span><span class="csl-right-inline">K. Cho, B. van Merrienboer, Çaglar
 Gülçehre, D. Bahdanau, F. Bougares, H. Schwenk, and Y. Bengio, “Learning
 phrase representations using RNN encoder-decoder for statistical machine
@@ -497,13 +511,13 @@ methods in natural language processing, EMNLP 2014, october 25-29, 2014,
 doha, qatar, A meeting of SIGDAT, a special interest group of the ACL*,
 A. Moschitti, B. Pang, and W. Daelemans, Eds., ACL, 2014, pp. 1724–1734.
 doi: [10.3115/V1/D14-1179](https://doi.org/10.3115/V1/D14-1179).</span>
-\[[1](#cite_28)\]
+\[[1](#cite_29)\]
 
 </div>
 
 <div id="ref-sutskever2014seq2seq" class="csl-entry">
 
-<span class="csl-left-margin">\[29\]
+<span class="csl-left-margin">\[30\]
 </span><span class="csl-right-inline">I. Sutskever, O. Vinyals, and Q.
 V. Le, “Sequence to sequence learning with neural networks,” in
 *Advances in neural information processing systems 27: Annual conference
@@ -511,7 +525,7 @@ on neural information processing systems 2014, december 8-13 2014,
 montreal, quebec, canada*, Z. Ghahramani, M. Welling, C. Cortes, N. D.
 Lawrence, and K. Q. Weinberger, Eds., 2014, pp. 3104–3112. Available:
 <https://proceedings.neurips.cc/paper/2014/hash/a14ac55a4f27472c5d894ec1c3c743d2-Abstract.html></span>
-\[[1](#cite_29)\]
+\[[1](#cite_30)\]
 
 </div>
 
